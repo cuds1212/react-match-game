@@ -1,0 +1,17 @@
+.title {
+    text-align: center;
+    color: rgb(52, 73, 94);
+    font-size: 1rem;
+}
+
+@media (min-width: 600px){
+    .title {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 900px){
+    .title {
+        font-size: 1.25rem;
+    }
+}

@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+.app {
+  width: 90%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+
+
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 600px) {
+  .app {
+    width: 70%;
+
+  }
+}
+
+@media (min-width: 900px) {
+  .app {
+    width: 50%;
+
+  }
+}

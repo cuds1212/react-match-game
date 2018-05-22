@@ -1,0 +1,76 @@
+.scoreboard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 75px;
+    background-color: rgb(52, 73, 94);
+    color: white;
+    padding: 0 20px;
+    margin-top: 10px;
+}
+
+.score {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    width: 125px;
+    height: 45px;
+    font-weight: bold;
+    background-color: rgb(231, 76, 60);
+    border: 0;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.75;
+    transition: opacity 0.5s;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+button:active{
+    border:3px solid white;
+}
+
+button span {
+    font-size: 1rem;
+    padding-right: 0px;
+    transition: all 0.5s;
+    display: inline-block;
+    position: relative;
+}
+
+button .fa {
+    margin-left: 7px;
+}
+
+.finished {
+    background-color: rgb(46, 204, 113);
+    box-shadow: 0px 4px 6px 0px black !important;
+}
+
+button.final {
+    opacity: 1;
+}
+
+@media (min-width: 600px){
+    .score {
+        font-size: 1.35rem;
+    }
+
+    button span {
+        font-size: 1.35rem;
+    }
+}
